@@ -1,0 +1,168 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    
+}
+
+header{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    background-color: white;
+    padding: 0px 20px;
+    position: fixed;
+    width: 100%;
+    flex-direction: column;
+   
+}
+
+#fotoprincipal{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 250px;
+    border-radius: 50px;
+}
+
+#fotomain{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 250px;
+    
+}
+
+#h1principal{
+    font-size:50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    justify-items: center;
+}
+
+nav{
+    background-color: white;
+}
+
+#headercabeca{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+         
+    
+}
+
+#headernav{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+         
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 30px;
+    width: 600px;
+    
+}
+
+li{
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover{
+    color:red;
+    
+}
+
+main{
+	background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 200px 0px;
+    
+}
+
+.sessao{
+    height: 400px;
+    width: 100%;
+    background-color: darkcyan;
+}
+
+section#home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(84, 140, 245);
+    
+}
+
+section#portfolio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+    color: white;
+}
+
+section#servicos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+    color: white;
+}
+
+section#contato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkkhaki;
+    color: white;
+}
+
+#texto{
+    margin: 0;
+    padding: 0;
+}
+
+section#texto h1{
+    color: white;
+}
+
+#principal{
+    width: 450px;
+    margin: 20px;
+    border-radius: 15%;
+}
+
+.branco{
+    color: white;
+}
+
+
+footer{
+    background-color: black;
+	height: 30px;
+    position: fixed;
+    width: 100%;
+	color: white;
+	display: flex;
+    justify-content: flex-end;
+    border: 0;
+} 
