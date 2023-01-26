@@ -118,13 +118,14 @@ section#portfolio{
     justify-content: center;
     background-color: blueviolet;
     color: white;
+    
 }
 
 section#servicos{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: blueviolet;
+    background-color: rgb(110, 226, 43);
     color: white;
 }
 
